@@ -25,3 +25,8 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+div#mylinks {
+    color: #333;
+    font-size: 1.3em;
+}
