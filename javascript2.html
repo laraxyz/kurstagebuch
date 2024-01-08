@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Beispiel</title>
+    <!--meta charset="utf-8"-->
+    <!--meta charset="x-iso-8859-11"-->
+</head>
+<body>
+
+<p>Zähler: <span id="counter">0</span></p>
+<button onclick="increaseCounter()">Erhöhen</button>
+
+<!--a href="index.html">Zurück zur Startseite</a-->
+
+<script>
+    let count = 0;
+    function increaseCounter() {
+        count++;
+        document.getElementById('counter').innerText = count;
+    }
+</script>
+
+</body>
+</html>
