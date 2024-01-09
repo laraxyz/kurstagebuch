@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Beispiel</title>
+    <!--meta charset="utf-8"-->
+</head>
+<body>
+
+<input type="text" id="nameInput" placeholder="Gib deinen Namen ein">
+<button onclick="greetUser()">Begrüße mich</button>
+<p id="greeting"></p>
+
+<a href="index.html">Zurück zur Startseite</a>
+<script>
+    function greetUser() {
+        var name = document.getElementById('nameInput').value;
+        document.getElementById('greeting').innerText = 'Hallo ' + name + '!';
+    }
+</script>
+
+</body>
+</html>
